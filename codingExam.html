@@ -54,7 +54,7 @@
             let month = 1;
             
             while (loanBalance > 0) {
-                const interestPayment = (loanBaalance * (interestRate / 12)).toFixed(2);
+                const interestPayment = (loanBalance * (interestRate / 12)).toFixed(2);
                 const principalPayment = (monthlyPayment - interestPayment).toFixed(2);
                 loanBalance = (loanBalance - principalPayment).toFixed(2);
 
