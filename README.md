@@ -1,1 +1,0 @@
-# coding-exam-schedule-calculator
