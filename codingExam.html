@@ -15,6 +15,17 @@
 
     <div id="amortizationSchedule"></div>
     <script>
+      document.getElementById("currentDate").textContent = new Date().toLocaleDateString();
+
+      document.getElementById('Button1').addEventListener('click', function() {
+            let loanAmount = parseFloat(prompt("Enter the loan amount (without commas):"));
+            let termYears = parseInt(prompt("Enter the loan term in years (15 or 30):"));
+        
+            if (termYears !== 15 && termYears !== 30) {
+                alert("Please enter a valid loan term: 15 or 30 years.");
+                return;
+            }
+
       
     </script>
     
